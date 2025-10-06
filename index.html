@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>คู่มือกลไกเฟือง</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <!-- 🔥 Intro Loader -->
+    <div id="intro-loader" class="intro-loader">
+        <div class="intro-content">
+            <h1>⚙️  𝓒𝓻𝓮𝓪𝓽𝓮𝓭 𝓫𝔂 𝓽𝓱𝓮 𝓖𝓮𝓪𝓻 𝓜𝓮𝓬𝓱𝓪𝓷𝓲𝓼𝓶 𝓟𝓻𝓸𝓳𝓮𝓬𝓽 𝓖𝓻𝓸𝓾𝓹</h1>
+            <p>© 2025 - ????</p>
+            <button id="start-btn"> 𝕾𝖙𝖆𝖗𝖙  </button>
+        </div>
+    </div>
+
+    <!-- 📚 Sidebar Menu -->
+    <aside class="sidebar">
+        <h2>สารบัญ</h2>
+        <ul>
+            <li><a href="#intro">บทนำ</a></li>
+            <li><a href="#components">องค์ประกอบ</a></li>
+            <li><a href="#principle">หลักการทำงาน</a></li>
+            <li><a href="#gear-steps">ขั้นตอนการสร้าง</a></li>
+            <li><a href="#gear-toggle">สรุปขั้นตอน</a></li>
+            <li><a href="#examples">ตัวอย่างการใช้งาน</a></li>
+            <li><a href="#benefits">ประโยชน์</a></li>
+            <li><a href="#gear-animation">ภาพอนิเมชัน</a></li>
+            <li><a href="#author">ผู้จัดทำ</a></li>
+        </ul>
+    </aside>
+
+    <!-- 🧠 Main Content -->
+    <main class="content">
+        <section id="intro">
+            <h1>บทนำ</h1>
+            <p>กลไกเฟืองเป็นระบบที่ใช้ในการส่งกำลังจากจุดหนึ่งไปยังอีกจุดหนึ่ง โดยอาศัยการหมุนของเฟืองขับไปยังเฟืองตาม ซึ่งสามารถควบคุมความเร็วและแรงบิดได้ตามต้องการ</p>
+        </section>
+
+        <section id="components">
+            <h2>องค์ประกอบหลัก</h2>
+            <ul>
+                <li><strong>เฟืองขับ:</strong> รับกำลังจากมอเตอร์หรือมือหมุน</li>
+                <li><strong>เฟืองตาม:</strong> รับแรงหมุนจากเฟืองขับ</li>
+                <li><strong>อัตราทด:</strong> สัดส่วนฟันเฟือง ใช้ควบคุมความเร็วและแรง</li>
+            </ul>
+        </section>
+
+        <section id="principle">
+            <h2>หลักการทำงาน</h2>
+            <p>เมื่อเฟืองขับหมุน จะทำให้เฟืองตามหมุนตามไปด้วย หากเฟืองตามมีฟันมากกว่าเฟืองขับ จะเกิดการทดรอบ ทำให้ความเร็วลดลงแต่แรงบิดเพิ่มขึ้น</p>
+        </section>
+
+        <section id="gear-steps">
+            <h2>🛠️ ขั้นตอนการสร้างกลไกเฟือง</h2>
+            <ol>
+                <li>🔍 <strong>ศึกษาหลักการ:</strong> ทำความเข้าใจเฟืองขับ-เฟืองตาม และอัตราทด</li>
+                <li>📐 <strong>ออกแบบระบบ:</strong> เลือกขนาดเฟืองและตำแหน่งการติดตั้ง</li>
+                <li>🧰 <strong>เตรียมวัสดุ:</strong> เตรียมเฟือง, แกนหมุน, ฐานรอง และเครื่องมือ</li>
+                <li>🔧 <strong>ประกอบกลไก:</strong> ติดตั้งเฟืองขับและเฟืองตามให้ฟันเฟืองสัมผัสกันพอดี</li>
+                <li>⚙️ <strong>ทดสอบการหมุน:</strong> หมุนเฟืองขับและสังเกตการทำงานของเฟืองตาม</li>
+                <li>✅ <strong>ปรับแต่ง:</strong> ตรวจสอบความเรียบลื่นและปรับตำแหน่งให้เหมาะสม</li>
+            </ol>
+        </section>
+
+        <section id="gear-toggle">
+            <button id="toggle-steps">📦 ดูขั้นตอนทั้งหมด</button>
+            <div id="gear-icons" class="hidden">
+                <div class="step-grid">
+                    <div class="step-card"><div class="step-icon">🔍</div><h3>ศึกษาหลักการ</h3><p>เข้าใจเฟืองขับ-เฟืองตาม และอัตราทด</p></div>
+                    <div class="step-card"><div class="step-icon">📐</div><h3>ออกแบบระบบ</h3><p>กำหนดขนาดและตำแหน่งเฟือง</p></div>
+                    <div class="step-card"><div class="step-icon">🧰</div><h3>เตรียมวัสดุ</h3><p>จัดเตรียมเฟือง แกน และเครื่องมือ</p></div>
+                    <div class="step-card"><div class="step-icon">🔧</div><h3>ประกอบกลไก</h3><p>ติดตั้งเฟืองให้ฟันสัมผัสกันพอดี</p></div>
+                    <div class="step-card"><div class="step-icon">⚙️</div><h3>ทดสอบการหมุน</h3><p>หมุนเฟืองขับและสังเกตการทำงาน</p></div>
+                    <div class="step-card"><div class="step-icon">✅</div><h3>ปรับแต่ง</h3><p>ตรวจสอบความเรียบลื่นและแก้ไข</p></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="examples">
+            <h2>ตัวอย่างการใช้งาน</h2>
+            <ul>
+                <li>ระบบยกของด้วยเฟืองทดรอบ</li>
+                <li>รถขับเคลื่อนด้วยเฟืองจากมอเตอร์</li>
+                <li>แขนกลหมุนอัตโนมัติในหุ่นยนต์</li>
+            </ul>
+        </section>
+
+        <section id="benefits">
+            <h2>ประโยชน์ของการใช้เฟือง</h2>
+            <p>ช่วยควบคุมการเคลื่อนไหว เพิ่มแรงบิด ลดความเร็ว และเปลี่ยนทิศทางการหมุน เหมาะสำหรับงานวิศวกรรมและหุ่นยนต์</p>
+        </section>
+
+        <section id="gear-animation">
+            <h2>🌀 ภาพอนิเมชันกลไกเฟือง </h2>
+            <div class="gear-container">
+                <!-- Inline SVG: crank-slider driving a 3-gear train -->
+                <div id="gear-svg-container" class="gears-svg" aria-hidden="false">
+                    <svg id="mechanism-svg" xmlns="http://www.w3.org/2000/svg" viewBox="20 0 520 240" width="520" height="240" role="img" aria-label="Crank-driven gear train">
+                        <defs>
+                            <radialGradient id="metal" cx="40%" cy="30%">
+                                <stop offset="0%" stop-color="#fff" stop-opacity="0.95"/>
+                                <stop offset="60%" stop-color="#cfe8f6" stop-opacity="0.95"/>
+                                <stop offset="100%" stop-color="#6aa0bf"/>
+                            </radialGradient>
+                            <filter id="sd" x="-50%" y="-50%" width="200%" height="200%">
+                                <feDropShadow dx="0" dy="3" stdDeviation="4" flood-color="#000" flood-opacity="0.25" />
+                            </filter>
+                            <style>
+                                .tooth { fill: url(#metal); stroke:#05324a; stroke-width:0.6 }
+                                .body { fill: url(#metal); stroke:#032835; stroke-width:1.0 }
+                                .hub { fill:#032835 }
+                                .crank { stroke:#333; stroke-width:6; stroke-linecap:round }
+                                .rod { stroke:#222; stroke-width:4; stroke-linecap:round }
+                                .slider { fill:#e9eef2; stroke:#123; stroke-width:1 }
+                            </style>
+                        </defs>
+
+                        <!-- Base / ground -->
+                        <rect x="0" y="0" width="100%" height="100%" fill="transparent" />
+
+                        <!-- (Crank, connecting rod and slider removed — only gears remain) -->
+
+                        <!-- Gear train to the right: driver, idler, driven -->
+                        <!-- Driver is at (200,120) -->
+                        <g class="gear driver" id="driver" transform="translate(200,120) rotate(0)">
+                            <circle class="body" r="40"/>
+                            <circle class="hub" r="10"/>
+                            <!-- visual tooth markers (not full geometry) -->
+                            <g class="tooth-markers">
+                                <!-- 20 markers -->
+                                <!-- we'll rely on JS for rotation math; markers are visual only -->
+                                <g>
+                                    <!-- generate visually by repeating a simple rect around circle via JS if needed -->
+                                </g>
+                            </g>
+                        </g>
+
+                        <!-- Idler at (300,120) -->
+                        <g class="gear idler" id="idler" transform="translate(300,120) rotate(0)">
+                            <circle class="body" r="60"/>
+                            <circle class="hub" r="12"/>
+                        </g>
+
+                        <!-- Driven at (440,120) -->
+                        <g class="gear driven" id="driven" transform="translate(440,120) rotate(0)">
+                            <circle class="body" r="80"/>
+                            <circle class="hub" r="14"/>
+                        </g>
+
+                        <!-- Labels -->
+                        <text x="200" y="220" font-family="Sarabun, sans-serif" font-size="12" fill="#032835" text-anchor="middle">Driver (20T)</text>
+                        <text x="300" y="220" font-family="Sarabun, sans-serif" font-size="12" fill="#032835" text-anchor="middle">Idler (30T)</text>
+                        <text x="440" y="220" font-family="Sarabun, sans-serif" font-size="12" fill="#032835" text-anchor="middle">Driven (40T)</text>
+                    </svg>
+                </div>
+            </div>
+        </section>
+
+        <section id="size-design">
+            <h2>ขนาดและการออกแบบ</h2>
+            <p>1. ขนาดความยาวของชิ้นงาน 120 mm.</p>
+            <p>2. ขนาดความกว้าง 30 mm.</p>
+            <p>3. ขนาดของเฟืองขับ 15 Ø</p>
+            <p>4. ขนาดของเฟืองทด 5 Ø</p>
+            <p>5. ขนาดของเฟืองตาม 15 Ø</p>
+        </section>
+
+        <section id="members">
+            <h2>สมาชิกในกลุ่ม</h2>
+            <p>1. นาย จักรินทร์ เลิศนา รหัสนักเรียนนักศึกษา 68301270001</p>
+            <p>2. นาย ศราวุธ บัวพัฒน์ รหัสนักเรียนนักศึกษา 68301270009</p>
+        </section>
+
+        <section id="author">
+            <div class="author-card">
+                <div class="author-icon">⚙️</div>
+                <div class="author-info">
+                    <h2>Mr Sarawut Buaphat</h2>
+                    <p>ผู้จัดทำเว็บไซต์คู่มือกลไกเฟือง</p>
+                    <p class="quote">“Precision drives power. Mechanism reveals mastery.”</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- 🔊 Welcome Audio -->
+    <audio id="welcome-audio" src="assets/sounds/welcome.mp3" preload="auto"></audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
